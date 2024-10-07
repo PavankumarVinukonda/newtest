@@ -1,10 +1,10 @@
-import { c as createAstro, a as createComponent, r as renderTemplate, b as addAttribute, d as renderHead, e as renderSlot, m as maybeRenderHead, f as renderComponent } from '../chunks/astro/server_FmxK9qka.mjs';
+import { c as createComponent, r as renderTemplate, a as addAttribute, d as renderHead, e as renderSlot, b as createAstro, m as maybeRenderHead, f as renderComponent } from '../chunks/astro/server_nR4ycbOR.mjs';
 import 'kleur/colors';
 import 'clsx';
 /* empty css                                 */
 export { renderers } from '../renderers.mjs';
 
-const $$Astro$2 = createAstro("https://example.com");
+const $$Astro$2 = createAstro();
 const $$Layout = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Layout;
@@ -12,7 +12,7 @@ const $$Layout = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`<html lang="en"> <head><meta charset="UTF-8"><meta name="description" content="Astro description"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator"${addAttribute(Astro2.generator, "content")}><title>${title}</title>${renderHead()}</head> <body> ${renderSlot($$result, $$slots["default"])} </body></html>`;
 }, "C:/Users/vinuk/Videos/Captures/New folder/interstellar-iron/src/layouts/Layout.astro", void 0);
 
-const $$Astro$1 = createAstro("https://example.com");
+const $$Astro$1 = createAstro();
 const $$Card = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Card;
@@ -20,7 +20,7 @@ const $$Card = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<li class="link-card" data-astro-cid-dohjnao5> <a${addAttribute(href, "href")} data-astro-cid-dohjnao5> <h2 data-astro-cid-dohjnao5> ${title} <span data-astro-cid-dohjnao5>&rarr;</span> </h2> <p data-astro-cid-dohjnao5> ${body} </p> </a> </li> `;
 }, "C:/Users/vinuk/Videos/Captures/New folder/interstellar-iron/src/components/Card.astro", void 0);
 
-const $$Astro = createAstro("https://example.com");
+const $$Astro = createAstro();
 const $$Index = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Index;

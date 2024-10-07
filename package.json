@@ -12,6 +12,10 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/react": "^3.6.2",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.2",
+    "@mui/material": "^6.1.2",
     "astro": "^4.15.11",
     "astro-aws-amplify": "^0.1.0",
     "formik": "^2.4.6",
